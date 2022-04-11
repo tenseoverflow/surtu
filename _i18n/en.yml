@@ -1,0 +1,12 @@
+global:
+  tagline: English
+  about: About & Contact
+  home: Home
+  books: Books
+  blog: Articles
+  about: About
+langs:
+  en: eng
+  et: est
+pages:
+titles:

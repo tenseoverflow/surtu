@@ -1,10 +1,20 @@
 <header>
   <div class="page-links">
-    <a class="page-link" href="{{ site.baseurl }}/">Home</a>
-    {% for my_page in site.pages %}
+    <a class="page-link" href="{{ site.baseurl }}/">Algus</a>
+    <!--{% for my_page in site.pages %}
       {% if my_page.title %}
       • <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
       {% endif %}
-    {% endfor %}
+    {% endfor %}-->
+    • <a class="page-link" href="/books">Raamatud</a>
+    • <a class="page-link" href="/blog">Teataja</a>
+    • <a class="page-link" href="/about">Meist</a>
+    {% if site.lang == "et" %}
+      {% capture link1 %}{{ site.baseurl_root }}/en{{ page.url}}{% endcapture %}
+      — <a href="{{ link1 }}" >eng</a>
+    {% elsif site.lang == "en" %}
+      {% capture link2 %}{{ site.baseurl_root }}{{ page.url  }}{% endcapture %}
+      — <a href="{{ link2 }}" >est</a>
+    {% endif %}
   </div>
 </header>

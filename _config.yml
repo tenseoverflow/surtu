@@ -1,12 +1,12 @@
 title: Surtu Kirjastus
 email: c@c.com
 description: >- # this means to ignore newlines until "baseurl:"
-  surtu
+  21. sajandi raamatukirjastus
 tagline: Surtu Kirjastus
 baseurl: "" 
 url: "https://surtu.ee" 
 permalink: pretty
-lang: en-US
+lang: et
 timezone: Europe/London
 author: Surtu
 
@@ -21,6 +21,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-relative-links
   - jekyll-seo-tag
+  - jekyll-multiple-languages-plugin
+
+languages: ["et", "en"]
+exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
 
 exclude:
   - .sass-cache/
