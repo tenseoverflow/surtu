@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Teataja
-permalink: /blog/
+permalink: /teataja/
 ---
 
-<h3>Latest posts brewed and pressed</h3>
+<h3>Artiklid</h3>
 
 
   <div>
