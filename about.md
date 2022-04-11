@@ -4,6 +4,6 @@ title: About & Contact
 permalink: /about/
 ---
 
-Surtu Kirjastus
+Surtu on kolme õpilase poolt algatud kirjastus, et edendada Eesti kirjandusmaastiku (jne jne).
 
-Thanks to the [immaculate](https://github.com/siawyoung/immaculate) project for the website.
+Tänud [immaculate](https://github.com/siawyoung/immaculate) projektile veebisaidi inspiratsiooniks.
