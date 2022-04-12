@@ -15,7 +15,9 @@ permalink: /raamatud/
 <div class="book-desc">
 <h2>{{ item.title }}</h2>
 <p>{{ item.description }}</p>
-<a href="{{ item.url }}" style="font-size: 2em;">Osta</a>
+{% if item.buy-link %}
+<a href="{{ item.buy-link }}" style="font-size: 2em;">Osta</a>
+{% endif %}
 </div>
 </div>
 <hr>

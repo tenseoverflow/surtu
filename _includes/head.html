@@ -8,6 +8,11 @@
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="sitemap" type="application/xml" title="sitemap" href="{{ site.baseurl }}/sitemap.xml" />
+  <link rel="shortcut icon" href="/favicon.ico">
+  
+  {% feed_meta %}
+  {% seo %}
 
   <script type="application/ld+json">
   {% include metadata.json %}

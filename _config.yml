@@ -6,6 +6,7 @@ tagline: Surtu Kirjastus
 baseurl: "" 
 url: "https://surtu.ee" 
 permalink: pretty
+paginate: 2
 lang: et
 timezone: Europe/London
 author: Surtu
@@ -18,7 +19,21 @@ books:
 - title: another one
   pic:
   description: Testing testing lorem ipsum teuom
-  buy-link:
+  buy-link: https://hen.ee
+
+music:
+- title: GJ - muusikapala
+  year: 2022
+  pic: /assets/images/esikaas-679x960.png
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  link: 
+
+salvestused:
+- title: GJ - Salvestusene
+  year: 2022
+  pic: /assets/images/esikaas-679x960.png
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  link: https://hen.ee
 
 # Build settings
 #theme: default
@@ -28,10 +43,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-relative-links
   - jekyll-seo-tag
-  - jekyll-multiple-languages-plugin
+#  - jekyll-multiple-languages-plugin
 
-languages: ["et", "en"]
-exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
+#languages: ["et", "en"]
+#exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
 
 exclude:
   - .sass-cache/
