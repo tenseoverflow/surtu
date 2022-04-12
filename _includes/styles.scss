@@ -43,3 +43,30 @@ code {
   font-size: 1.125rem;
   line-height: 1.6;
 }
+
+.book {
+  display: flex;
+}
+
+@media (max-width: 900px) {
+  .book {
+    display: block;
+    margin-right: 12.5%;
+  }
+}
+
+hr {
+  margin-bottom:  3vw;
+  margin-top: 3vw;
+  margin-left: 3vw;
+  width: 50vw;
+}
+
+.book-pic {
+  padding-top: 2.1rem;
+  min-width: 220px;
+}
+
+.book-desc {
+  padding-left: 2em;
+}
