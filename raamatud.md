@@ -4,9 +4,11 @@ title: Raamatud
 permalink: /raamatud/
 ---
 
-<h3>Valik meie kirjastatud raamatutest:</h3>
+<h3>Valik meie väljaannetest:</h3>
 
-<section>
+<p>Raamatud alles tulevad.</p>
+
+<!--<section>
 {% for item in site.books %}
 <div class="book">
 <div class="book-pic">
@@ -22,4 +24,4 @@ permalink: /raamatud/
 </div>
 <hr>
 {% endfor %}
-</section>
+</section>-->

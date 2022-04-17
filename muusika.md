@@ -6,7 +6,9 @@ permalink: /muusika/
 
 <h3>Surtu Kirjastus tegeleb ka nüüdisaegse klassikalise muusika kirjastamisega ning salvestamisega.</h3>
 
-<section>
+<p>Uut sisu võib tulla varsti!</p>
+
+<!--<section>
 <h2>Noodid:</h2>
     
 <ul style="list-style: none;">
@@ -35,4 +37,4 @@ permalink: /muusika/
 {% endfor %}    
 </ul>
 
-</section>
+</section>-->

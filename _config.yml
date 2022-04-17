@@ -1,6 +1,6 @@
 title: Surtu Kirjastus
-email: c@c.com
-description: >- # this means to ignore newlines until "baseurl:"
+email: kirjastus@surtu.ee
+description: >-
   21. sajandi raamatu- ja muusikakirjastus
 tagline: Surtu Kirjastus
 baseurl: "" 
@@ -12,24 +12,20 @@ timezone: Europe/London
 author: Surtu
 
 books:
-- title: Test
+- title: test
   pic: /assets/images/esikaas-679x960.png
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
   buy-link: 
-- title: another one
-  pic:
-  description: Testing testing lorem ipsum teuom
-  buy-link: https://hen.ee
 
 music:
-- title: GJ - muusikapala
+- title: test
   year: 2022
   pic: /assets/images/esikaas-679x960.png
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
   link: 
 
 salvestused:
-- title: GJ - Salvestusene
+- title: test
   year: 2022
   pic: /assets/images/esikaas-679x960.png
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
