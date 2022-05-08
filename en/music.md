@@ -1,16 +1,16 @@
 ---
-layout: page
-title: Muusika
-permalink: /muusika/
-respectiveENG: /en/music/
+layout: page-eng
+title: Music
+permalink: /en/music
+respectiveEST: /muusika
 ---
 
-<h3>Surtu Kirjastus tegeleb ka nüüdisaegse klassikalise muusika kirjastamisega ning salvestamisega.</h3>
+<h3>Our published sheet music and recordings:</h3>
 
-<p>Uut sisu võib tulla varsti!</p>
+<p>they're coming!</p>
 
 <!--<section>
-<h2>Noodid:</h2>
+<h2>Sheet music:</h2>
     
 <ul style="list-style: none;">
 {% for item in site.music %}
@@ -24,7 +24,7 @@ respectiveENG: /en/music/
 {% endfor %}    
 </ul>
 
-<h2>Salvestused:</h2>
+<h2>Recordings:</h2>
 
 <ul style="list-style: none;">
 {% for item in site.salvestused %}

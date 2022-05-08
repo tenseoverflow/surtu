@@ -1,11 +1,11 @@
 ---
-layout: page
-title: Teataja
-permalink: /teataja/
-respectiveENG: /en/teataja/
+layout: page-eng
+title: Articles
+permalink: /en/teataja/
+respectiveEST: /teataja/
 ---
 
-<h3>Artiklid (<a href="/feed.xml">RSS</a>)</h3>
+<h3>Articles (Teataja) published by Surtu's staff, in Estonian. (<a href="/feed.xml">RSS</a>)</h3>
 
 <div id="recents">
 

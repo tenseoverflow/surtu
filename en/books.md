@@ -1,13 +1,13 @@
 ---
-layout: page
-title: Raamatud
-permalink: /raamatud/
-respectiveENG: /en/books/
+layout: page-eng
+title: Books
+permalink: /en/books
+respectiveEST: /raamatud
 ---
 
-<h3>Valik meie väljaannetest:</h3>
+<h3>Our published books:</h3>
 
-<p>Raamatud alles tulevad.</p>
+<p>they're coming!</p>
 
 <!--<section>
 {% for item in site.books %}
@@ -19,7 +19,7 @@ respectiveENG: /en/books/
 <h2>{{ item.title }}</h2>
 <p>{{ item.description }}</p>
 {% if item.buy-link %}
-<a href="{{ item.buy-link }}" style="font-size: 2em;">Osta</a>
+<a href="{{ item.buy-link }}" style="font-size: 2em;">Buy</a>
 {% endif %}
 </div>
 </div>

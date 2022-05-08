@@ -9,7 +9,6 @@ permalink: pretty
 paginate: 2
 lang: et
 timezone: Europe/London
-author: Surtu
 
 books:
 - title: test
