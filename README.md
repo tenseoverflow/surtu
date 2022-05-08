@@ -2,10 +2,10 @@
 
 Surtu kirjastuse veebisait: "*21. sajandi raamatu- ja muusikakirjastus.*"
 
-Tänud inspiratsiooni ja veebisaidi disaini eest - [immaculate](https://github.com/siawyoung/immaculate).
+Kasutab [Tufte CSS](https://github.com/edwardtufte/tufte-css)'i disaini põhimõtteid.
 
 ## English
 
 Surtu publishing's website: "*The 21st century book and music publisher.*"
 
-Thanks to the [immaculate](https://github.com/siawyoung/immaculate) project for the website's inspiration.
+Uses the [Tufte CSS](https://github.com/edwardtufte/tufte-css) as it's design philosophy.
