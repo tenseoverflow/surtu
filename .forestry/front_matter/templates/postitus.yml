@@ -25,3 +25,5 @@ fields:
   label: Autor
   config:
     required: true
+pages:
+- _posts/naide-postitus-hoia-draft-ina.md
