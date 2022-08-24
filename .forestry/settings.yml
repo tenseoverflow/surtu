@@ -4,10 +4,15 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: _config
+  label: Konfiguratsioon
+  match: "**/*"
+  read_only: true
 - type: jekyll-pages
   label: Main
   create: all
-  new_doc_ext: ".html"
+  new_doc_ext: html
 - type: jekyll-posts
   label: Posts
   create: all
