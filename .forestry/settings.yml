@@ -5,9 +5,8 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: _config
+  path: _config.yml
   label: Konfiguratsioon
-  match: "**/*"
   read_only: true
 - type: jekyll-pages
   label: Main
