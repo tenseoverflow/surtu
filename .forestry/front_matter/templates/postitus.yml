@@ -6,11 +6,18 @@ fields:
   name: layout
   label: layout
 - type: text
-  name: description
-  label: description
-- type: text
   name: title
-  label: title
+  label: Pealkiri
+  config:
+    required: true
+- type: text
+  name: description
+  label: Kirjeldus
+  hidden: false
+  config:
+    required: true
 - type: text
   name: author
-  label: author
+  label: Autor
+  config:
+    required: true
