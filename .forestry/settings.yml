@@ -7,7 +7,7 @@ sections:
 - type: jekyll-pages
   label: Main
   create: all
-  match: "**/*"
+  new_doc_ext: ".html"
 - type: jekyll-posts
   label: Posts
   create: all
